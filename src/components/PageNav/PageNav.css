@@ -1,0 +1,27 @@
+.page-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.page-nav .nums {
+  font-size: 13px;
+  color: rgba(38, 51, 74, 0.6);
+}
+
+.page-nav button {
+  padding: 12px 16px;
+  background: #08a0f7;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+.page-nav button:disabled {
+  background: rgba(8, 160, 247, 0.4);
+  cursor: not-allowed;
+}

@@ -1,0 +1,76 @@
+.item {
+  border: 1px solid #d8e1e9;
+  border-radius: 10px;
+  margin-top: 15px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item .col {
+  display: flex;
+  align-items: center;
+}
+
+.item .square {
+  width: 24px;
+  height: 24px;
+  background: rgba(8, 160, 247, 0.06);
+  border: 1px solid #08a0f7;
+  border-radius: 3px;
+  margin-left: 40px;
+}
+
+.item .name {
+  margin-left: 30px;
+  padding: 12px;
+  width: 414px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0);
+}
+
+.item .name:focus {
+  background: #ffffff;
+  outline: 1px solid #08a0f7;
+  border-radius: 8px;
+}
+
+.item img {
+  margin-right: 45px;
+}
+
+.item .to-play {
+  width: 59px;
+  height: 22px;
+  background: rgba(200, 152, 28, 0.57);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: #4e4122;
+  margin-right: 64px;
+  cursor: pointer;
+}
+
+.item .complete {
+  width: 73px;
+  height: 22px;
+  background: rgba(28, 188, 83, 0.57);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #27653c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.item .delete {
+  cursor: pointer;
+}
